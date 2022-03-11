@@ -2,25 +2,20 @@
 //import logo from './assets/img/Logo.jpeg'
 import  Header from './Header/Header.js';
 import Footer from './Footer/Footer.js';
-import Slider from './Slideshow/Slider.js';
-
-
-
+import Ejemplo from './BtnAcction/buttonAction.js';
+import Sidebar from './Product-Categories/Sidebar/Sidebar.js';
 function App() {
- 
   return (
     <div >
       
       <Header></Header>
-      <h2>welcome to Ecommerce created whit react</h2> <br></br>
-
-        <Slider>
-        </Slider>
+      <Sidebar></Sidebar>
+        
       
 
-      
+      <Ejemplo></Ejemplo>
          
-
+        
 
         <Footer/>
     </div>
