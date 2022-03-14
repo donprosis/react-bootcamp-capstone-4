@@ -1,10 +1,12 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from "react";
+import React, { useState } from "react";
 import  "./Slider.css"
 import Images from '../assets/img/WizleineImages.json';
-import ViewAll from'../ViewAll/ViewAll.js'
-const Sliders=() =>{
+import ViewAll from'../ViewAll/ViewAll.js';
 
+
+
+const Sliders=() =>{
 
     return(
         
@@ -12,7 +14,7 @@ const Sliders=() =>{
             <div className='posts'>
           {Images.map(post=>{
             return(
-              <>
+              <div>
             
               <ul className="slider">
                 <li  id="img1Slider"><img src={post.results[0].data.main_image.url}></img></li>
@@ -33,12 +35,10 @@ const Sliders=() =>{
                 </li>
      
             </ul>
-              </>
+              </div>
             )
           })} 
           </div>
-          <ViewAll></ViewAll>
-              
         </div>
     )
 }
