@@ -1,0 +1,63 @@
+.Header {
+  position: sticky;
+  padding: 10px;
+  text-align: center;
+    background-color:black;
+    margin: 0%;
+    width: 800%;
+    max-width: 100%;
+    display: block;
+    color: white;
+  
+  }
+  .logocss{
+    height:  100px;
+    width: 100px;
+  }
+
+  .browser{
+    text-align: center;
+  }
+  button {
+    
+  text-align: center;
+  width: 65px;
+  height: 55px;
+  border-radius:10% ;
+  background-color: white;
+  cursor: pointer;
+  font-style: italic;
+
+  
+  }
+  button:hover{
+    background-color: black;
+    border: 1px solid  white;
+    cursor: pointer;
+    color: white;
+    }
+
+ 
+
+input{
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  border-radius:5% ;
+  background-color: white;
+
+  
+  
+}
+
+#car{
+
+border-radius: 20%;
+position: relative ;
+height: 70px;
+
+}
+
+#logocss{
+  cursor: pointer;
+}
