@@ -3,6 +3,8 @@ import React from "react";
 import Logo from '../../assets/img/Logo.jpg';
 import './Header.css';
 import { BsCart3 } from "react-icons/bs";
+import { Link, NavLink } from "react-router-dom";
+
 
 
 const Header = () =>{
@@ -20,7 +22,7 @@ const Header = () =>{
 
                     </div>
                      <input placeholder="Search" align="center" ></input><button> Search</button>
-                    <a href="/Car"><button id="car">  <h3> <BsCart3 /></h3> </button></a>
+                   <a href="/Cart"><button id="cart">  <h3> <BsCart3 /></h3> </button></a>
                      </div>
                      <div>
                      </div>
