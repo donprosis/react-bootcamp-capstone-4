@@ -13,7 +13,7 @@ export const Bedbath =()=>{
     <hr/>
     
         <h1>{result.data.name}</h1>
-        <img alt src={result.data.mainimage.url}></img>
+        <img  src={result.data.mainimage.url}></img>
         <h2>{result.data.category.slug}</h2>
             <h2>Description: </h2>
             <h3 >{result.data.short_description} </h3>

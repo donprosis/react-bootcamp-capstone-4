@@ -14,7 +14,7 @@ return(
     {resultas.map((resultades)=>
     <div key={resultades.id} >
         <h1>{resultades.data.name}</h1>
-        <img src={resultades.data.mainimage.url} alt={resultades.data.mainimage.alt}></img>
+        <img src={resultades.data.mainimage.url}></img>
 
     </div>
     )}

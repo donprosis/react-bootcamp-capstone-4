@@ -13,7 +13,7 @@ return(
         <div key={resulta.id} className="posts">
             <h1>{resulta.data.name}</h1>
             <div >
-            <img src={resulta.data.main_image.url} alt={resulta.data.main_image.alt} width="50%" >
+            <img src={resulta.data.main_image.url}  width="50%" >
             </img>
             </div>
             </div>

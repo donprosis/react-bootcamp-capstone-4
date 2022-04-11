@@ -22,7 +22,7 @@ export function useFeaturedProducts() {
 
         const response = await fetch(
           `${API_BASE_URL}/documents/search?ref=${apiRef}&q=${encodeURIComponent(
-            '[[at(document.type, "product")]]'
+            '[[at(document.type, "product")]]'  
           )}&lang=en-us&pageSize=5`,
           {
             signal: controller.signal,

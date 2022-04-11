@@ -21,7 +21,6 @@ const results =featuredBanners.results;
 
 
 
-
 return(
     <div >
         {results.map((resulta)=>
@@ -29,7 +28,7 @@ return(
         <div key={resulta.id} className="posts">
             <h1>{resulta.data.name}</h1>
             <div >
-            <img src={resulta.data.main_image.url} alt={resulta.data.main_image.alt} width="35%"></img>
+            <img src={resulta.data.main_image.url} width="35%"></img>
             </div>
             </div>
         )}

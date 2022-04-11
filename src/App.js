@@ -14,6 +14,7 @@ import BtnAcction from "./Components/Footer/BtnAcction/buttonAction.js";
 import Sidebar from './Components/Sidebar/Sidebar.js';
 import Header from './Components/Header/Header.js';
 import {Cart} from "./Pages/Cart.jsx";
+import {Search} from "./Pages/Search.jsx";
 function App() {
   return (
     <div>
@@ -32,12 +33,12 @@ function App() {
           <Route path='/Furniture' element={<Furniture/>}/>
           <Route path='/Decorate&Organize' element={<Decorate/>}/>
           <Route path='/Cart' element={<Cart/>}/>
+          <Route path='/Search' element={<Search/>}/>
           </Routes>
       </Router>
       <BtnAcction></BtnAcction>
-      </main>
+  </main>
       <Footer/>
-   
     </div>
   );
 }
